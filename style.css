@@ -323,6 +323,12 @@ body {
     box-shadow: var(--shadow-heavy);
 }
 
+/* Fix for the CTA button inside the mobile menu */
+.mobile-nav-links .btn {
+    justify-content: center;
+    margin-top: 30px;
+}
+
 .mobile-nav-links a i {
     font-size: 1.5rem;
     width: 30px;
@@ -764,6 +770,7 @@ body {
     height: 20px;
     border-radius: 50%; /* Maintain circle shape */
     background: rgba(255, 45, 85, 0.3);
+    flex-shrink: 0; /* Prevent dots from shrinking/squashing */
     cursor: pointer;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -945,6 +952,7 @@ body {
     height: 20px;
     border-radius: 50%;
     background: rgba(255, 45, 85, 0.3);
+    flex-shrink: 0; /* Prevent dots from shrinking/squashing */
     cursor: pointer;
     transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -1430,6 +1438,11 @@ body {
         height: 450px;
     }
 
+    .gallery-slide {
+        height: 300px; /* Adjust gallery slide height for tablets */
+        padding: 0 10px;
+    }
+
     .gallery-carousel,
     .testimonials-carousel {
         padding: 0 15px; /* Add padding for nav buttons and to prevent touching screen edge */
@@ -1442,6 +1455,16 @@ body {
         font-size: 16px;
         top: 50%; /* Adjust position for better vertical alignment */
     }
+
+    .pricing {
+        padding: 100px 0; /* Reduce padding on mobile */
+    }
+
+    .pricing h2 {
+        font-size: 3rem; /* Reduce heading size on mobile */
+    }
+
+    .pricing p { font-size: 1.2rem; }
 
     .testimonial-slide {
         /* Padding is now on the carousel container, so remove it here for consistency */
@@ -1528,6 +1551,11 @@ body {
     
     .hero-image {
         height: 280px; /* Fine-tune for the smallest screens */
+    }
+
+    .gallery-slide {
+        height: 240px; /* Further adjust gallery slide height for small phones */
+        padding: 0 5px;
     }
 
     .social-icons a {
