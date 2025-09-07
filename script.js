@@ -120,7 +120,6 @@ document.addEventListener('DOMContentLoaded', () => {
         };
  
         const startAutoSlide = () => {
-            console.log('Starting auto slide');
             if (!config.autoPlay) return;
             stopAutoSlide();
             autoSlideInterval = setInterval(() => goToSlide(currentIndex + 1), config.autoPlay);
