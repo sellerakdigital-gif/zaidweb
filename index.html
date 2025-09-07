@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connecting the Dotss - Premium Event Planning</title>
+    <link rel="icon" type="image/png" href="https://i.ibb.co/jZzVgShx/zaidpng.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#home" class="logo" style="text-decoration: none;">
+                    <img src="https://i.ibb.co/4ZsHnhB2/LOGOS-3.png" alt="Connecting the Dotss Logo">
+                    <div class="logo-text">Connecting the Dotss</div>
+                </a>
+                <!-- Desktop Navigation -->
+                <nav class="nav">
+                    <ul class="nav-links">
+                        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#samina"><i class="fas fa-info-circle"></i> About Us</a></li>
+                        <li class="dropdown">
+                            <a href="#services"><i class="fas fa-concierge-bell"></i> Our Services</a>
+                            <div class="dropdown-content">
+                                <a href="#gallery"><i class="fas fa-images"></i> Gallery</a>
+                                <a href="#testimonials"><i class="fas fa-star"></i> Testimonials</a>
+                                <a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a>
+                            </div>
+                        </li>
+                    </ul>
+                    <a href="#contact" class="btn">
+                        <i class="fas fa-calendar-check"></i> Get Quote
+                    </a>
+                </nav>
+                <!-- Mobile Menu Toggle -->
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Open menu" aria-controls="mobileNav" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Navigation -->
+        <nav class="mobile-nav" id="mobileNav">
+            <button class="mobile-menu-close" id="mobileMenuClose" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </button>
+            <ul class="mobile-nav-links">
+                <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#samina"><i class="fas fa-info-circle"></i> About Us</a></li>
+                <li><a href="#services"><i class="fas fa-concierge-bell"></i> Our Services</a></li>
+                <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                <li><a href="#testimonials"><i class="fas fa-star"></i> Testimonials</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                <li><a href="#contact" class="btn" style="margin-top: 30px; justify-content: center;"><i class="fas fa-calendar-check"></i> Get Quote</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Hero Section -->
+        <section id="home" class="hero bg-pattern-1">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1>Where Dreams Meet Design</h1>
+                        <p>From intimate gatherings to grand weddings, we craft experiences that last a lifetime. Let us transform your vision into reality with our exceptional attention to detail and creative excellence.</p>
+                        <div class="hero-buttons">
+                            <a href="#contact" class="btn">
+                                <i class="fas fa-calendar-plus"></i> Book Now
+                            </a>
+                            <a href="#gallery" class="btn btn-secondary">
+                                <i class="fas fa-eye"></i> View Gallery
+                            </a>
+                        </div>
+                    </div>
+                    <div class="hero-image">
+                        <!-- I've updated the path to be relative. For this to work, place 'zaide.gif' in the same folder as index.html -->
+                        <img src="zaide.gif" alt="Animated collage of beautiful event setups">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about bg-pattern-2">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Crafting Unforgettable Moments with Elegance and Precision</h3>
+                        <p>At Connecting the Dotss, we specialize in designing seamless, elegant events tailored to your unique vision. From intimate weddings to grand corporate gatherings, our team ensures every detail is meticulously handled with passion, creativity, and unmatched professionalism.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&h=450&q=80" alt="Event planning details">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services bg-pattern-3">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tagline">Elegance</div>
+                    <h2>Our Exceptional Services</h2>
+                    <p>Crafting unforgettable moments for every occasion with unmatched attention to detail and creative excellence.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-heart"></i>
+                        </div>
+                        <h4>Wedding Planning Services</h4>
+                        <p>Expert planning for all wedding styles, from intimate ceremonies to grand celebrations that reflect your unique love story.</p>
+                        <a href="#contact" class="learn-more">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-glass-cheers"></i>
+                        </div>
+                        <h4>Engagement & Bridal Showers</h4>
+                        <p>Personalized decor and planning for your special pre-wedding celebrations that create lasting memories.</p>
+                        <a href="#contact" class="learn-more">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="fas fa-seedling"></i>
+                        </div>
+                        <h4>Floral & Decor Setup</h4>
+                        <p>Tailored floral arrangements and stunning decor perfectly matched to your theme and vision.</p>
+                        <a href="#contact" class="learn-more">
+                            Learn More <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Gallery Section with Scroll Buttons -->
+        <section id="gallery" class="gallery bg-pattern-4">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Event Gallery</h2>
+                    <p>Explore our stunning past events and exquisite floral designs that bring dreams to life with artistic excellence.</p>
+                </div>
+                <div class="gallery-carousel">
+                    <button class="gallery-nav-btn prev" id="galleryPrev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="gallery-nav-btn next" id="galleryNext">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="gallery-track" id="galleryTrack">
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/qGGNzNv/IMG-6887-1.jpg" alt="Beautiful event decoration">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/zhHz3v9r/IMG-0334.jpg" alt="Elegant floral arrangement">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/b5Tpn8JL/IMG-9744.jpg" alt="Stunning event setup">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/Hp9tjm9Q/IMG-9408.jpg" alt="Premium table setting">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/21LkSdyz/IMG-9579.jpg" alt="Ceremony decoration">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/21F3yFN6/IMG-8460.jpg" alt="Reception setup">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/RTDVbFHk/IMG-5945.jpg" alt="Bridal bouquet">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/zHfW6zzf/IMG-9719.jpg" alt="Event lighting">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/XrstfXGz/IMG-0559.jpg" alt="Elegant centerpiece">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/ynCSgNv0/IMG-9674.jpg" alt="Wedding decoration">
+                        </div>
+                        <div class="gallery-slide">
+                            <img src="https://i.ibb.co/1YkXVyXx/IMG-6195.jpg" alt="Special event setup">
+                        </div>
+                    </div>
+                    <div class="gallery-controls" id="galleryControls">
+                        <!-- Dots will be generated by JavaScript -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Premium Testimonials Section -->
+        <section id="testimonials" class="testimonials bg-pattern-2">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tagline">Reviews</div>
+                    <h2>What Our Clients Say</h2>
+                    <p>Hear from our satisfied clients about their unforgettable experiences and magical celebrations.</p>
+                </div>
+                <div class="testimonials-carousel">
+                    <button class="testimonial-nav-btn" id="testimonialPrev" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonial-nav-btn" id="testimonialNext" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                    <div class="testimonials-container">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star star"></i> 
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                </div>
+                                <blockquote class="testimonial-quote">
+                                    "The decor was exactly what I had in mind and everyone loved it! I received so many compliments. It was very lovely and made my event perfect."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>Zaid</h5>
+                                        <p>Bride, Personal Client</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                </div>
+                                <blockquote class="testimonial-quote">
+                                    "The team exceeded all our expectations! The attention to detail was incredible, and our wedding day was absolutely perfect. A beautiful, seamless execution."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>Ahmed & Sarah</h5>
+                                        <p>Wedding Couple</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                </div>
+                                <blockquote class="testimonial-quote">
+                                    "Professional, creative, and wonderful to work with! Our engagement party was a dream come true. The floral arrangements and setup were magical."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>Fatima Khan</h5>
+                                        <p>Engagement Client</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                </div>
+                                <blockquote class="testimonial-quote">
+                                    "From consultation to cleanup, the team made our anniversary spectacular. Their creativity turned our vision into a breathtaking reality!"
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>Michael & Lisa</h5>
+                                        <p>Anniversary Celebration</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                
+                        <!-- Testimonial 5 -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="stars">
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                    <i class="fas fa-star star"></i>
+                                </div>
+                                <blockquote class="testimonial-quote">
+                                    "Our housewarming party was beautiful! The team understood our vision and created a warm, welcoming atmosphere. The attention to detail was remarkable."
+                                </blockquote>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">
+                                        <i class="fas fa-user"></i>
+                                    </div>
+                                    <div class="author-info">
+                                        <h5>Zarish</h5>
+                                        <p>Housewarming Client</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-controls" id="testimonialControls">
+                        <button class="testimonial-dot" aria-label="Go to testimonial 1"></button>
+                        <button class="testimonial-dot" aria-label="Go to testimonial 2"></button>
+                        <button class="testimonial-dot" aria-label="Go to testimonial 3"></button>
+                        <button class="testimonial-dot" aria-label="Go to testimonial 4"></button>
+                        <button class="testimonial-dot" aria-label="Go to testimonial 5"></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section (Samina) -->
+        <section id="samina" class="team bg-pattern-3">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Our Team Lead and Founder</h2>
+                    <p>Meet the talented individual behind your dream events and magical celebrations.</p>
+                </div>
+                <div class="team-content">
+                    <div class="team-text">
+                        <h3>Samina Hashmi<br>Lead Planner</h3>
+                        <p>Creating unforgettable experiences with meticulous attention to detail and a passion for design. With years of experience in event planning, Samina brings creativity, elegance, and professionalism to every celebration.</p>
+                    </div>
+                    <div class="team-image">
+                        <img src="https://i.ibb.co/gbwB8w8P/unnamed.jpg" alt="Samina Hashmi - Lead Planner">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pricing Section -->
+        <section class="pricing bg-pattern-5">
+            <div class="container">
+                <h2>Get your Estimate Today</h2>
+                <p>At Connecting the Dotss, our pricing starts at just $1,350, offering beautiful, elegant setups at accessible rates. Every event is unique, and final costs can range up to $50,000 depending on your specific needs, vision, and celebration scale.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact bg-pattern-4">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-tagline">Contact</div>
+                    <h2>Let's Plan Your Dream Event</h2>
+                    <p>Ready to create something magical? Get in touch with us today and let's bring your vision to life.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h4>Email Us</h4>
+                        <p>We would love to hear about your upcoming event and bring your vision to life with our expertise!</p>
+                        <a href="mailto:saminatanveer@hotmail.com" class="btn">Send an Email</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <h4>Call Us</h4>
+                        <p>Feel free to call us for any inquiries, consultations, or immediate assistance with your event planning needs.</p>
+                        <a href="tel:+19052999442" class="btn">Call Now</a>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <h4>Follow Us</h4>
+                        <p>Visit us on our social media to view all of our past events, latest work, and behind-the-scenes content.</p>
+                        <a href="https://www.instagram.com/connecting.the.dotss/" class="btn" target="_blank" rel="noopener noreferrer">View Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="https://i.ibb.co/4ZsHnhB2/LOGOS-3.png" alt="Connecting the Dotss">
+                    <h3>Connecting the Dotss</h3>
+                    <p>Creating unforgettable moments with elegance and precision. Your dream event is our passion, and we're here to make every celebration extraordinary and memorable.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                        <li><a href="#samina"><i class="fas fa-info-circle"></i> About Us</a></li>
+                        <li><a href="#services"><i class="fas fa-concierge-bell"></i> Our Services</a></li>
+                        <li><a href="#gallery"><i class="fas fa-images"></i> Gallery</a></li>
+                        <li><a href="#contact"><i class="fas fa-envelope"></i> Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><a href="mailto:saminatanveer@hotmail.com"><i class="fas fa-envelope"></i> Email Us</a></li>
+                        <li><a href="tel:+19052999442"><i class="fas fa-phone"></i> Call Us</a></li>
+                        <li><a href="https://www.instagram.com/connecting.the.dotss/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i> @connecting.the.dotss</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-links">
+                    <span>© 2025 Connecting the Dotss. All rights reserved.</span>
+                </div>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/connecting.the.dotss/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
